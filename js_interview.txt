@@ -1,0 +1,65 @@
+Nikhil dada questions
+
+Interview UI:  
+JavaScript:
+1.data types
+2.objects method
+3.inheritance
+4.closure
+5.prototype
+6.this keyword
+7.var and let
+8.primitive and non primitive
+9.push,pop, unshift,shift
+10.function types
+11.javascript call apply bind - watch YouTube save video
+12.Hoisting
+13.split,slice,join methods
+14.transpiling
+15.client side cache
+16.acceptencoding header
+17.compress response from api
+18.deep copy of object javascript
+19.headers responsible for caching
+20.arrow function different than other
+21.pseudo element and pseudo class
+22.closure with multiply function
+23.IIFE 
+
+Angular:
+1.how angular start?
+2.directive
+3.observable and promises with definition and use
+4.different observables method like filter, map and many more
+5.subject
+6.event emitter
+7.http Vs http client
+8.lazy loading
+9.routing
+10.entry components
+11.unit testing
+12.shared module
+13.observables and subject
+14.statefull and stateless in angular
+15.encapsulation in angular
+16 call JavaScript function in other file
+17 dynamic import
+18 viewchild, viewchild, content child, contentchildren
+19routing forroot Vs for child
+20.angular clone
+21 intercepter
+22. Tree shaking for optimization
+23.angular material
+24.scss vs saas features 
+25. Lifecycle hooks in detail
+26.including 2 CSS in component
+27.interface and use in component
+28.constructor Vs ngoninit
+
+Programs
+1.fibonacci
+2.prime
+3.reverse a value of 2 variable without 3 variable
+4.palindrome
+5.max value
+6.star patter (z pattern)
