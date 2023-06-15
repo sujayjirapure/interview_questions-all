@@ -1,0 +1,146 @@
+
+
+1) default value
+we can give a function its default value
+
+ex) function add(num1 , num2=5){
+        num1 + num2;
+    } 
+console.log(add(5));
+
+ans- 10
+
+____________________________________________________________
+
+2) Rest and Spread oprator (...)
+
+if we apply (...)three dots on array it will spread it and if we apply to spreaded numbers 
+then it will reform them to an array.
+
+spread - spreading every thing ( pick up bag and just reverse it spread everything )
+
+it will lose identity of an array
+we can not use/pick by index
+
+ex) let arr = [1,2,3,4];
+
+    console.log(arr);     // [1,2,3,4]
+    console.log(...arr);    // 1,2,3,4
+_________________________________________
+
+Rest (inverse of spread) - simply collecting everything
+
+ex) function test(...args){       //args or any name we can give
+    console.log(args);
+}
+
+test(2,3,4);
+
+ans - [2,3,4]
+____________________________________________________________
+
+3) closure
+
+
+
+
+
+
+____________________________________________________________
+
+Array methods
+there some ready made function in js
+
+1) push
+it will add element in last index
+
+ex)let arr  = [1,2,3,4,5];
+
+    arr.push(10);
+    console.log(arr);   //[1,2,3,4,5,10];
+
+_________________________________________
+
+2) pop
+it will remove last element
+
+ex) let arr = [1,2,3];
+    arr.pop();
+
+    console.log(arr);     // [1,2]
+
+_________________________________________
+
+to create new array
+
+some diffrent ways :- 
+
+let arr_new = [];
+let arr_new2 = new Array;
+
+_________________________________________
+
+4) unshift
+
+it will add elemnt in 1st index
+
+ex) let arr = [1,2,3,4];
+    arr.unshift(6);
+    console.log(arr);   //  [6,1,2,3,4]
+
+_________________________________________
+
+5) shift 
+
+it will delete elemnt in 1st index
+
+ex) let arr = [1,2,3,4];
+    arr.shift();
+    console.log(arr);   //  [2,3,4]
+
+_________________________________________
+6) includes
+
+it will check the element if present it will return true and false
+
+ex) let arr = [1,2,3,4];
+    arr.includes(3);
+    console.log(arr);  // true
+
+_________________________________________
+7) concat  (merge 2 arr)
+
+ex) let arr1 = [1,2,3];
+    let arr2 = [4,5,6];
+
+    console.log([...arr1,...arr2]);  // [1,2,3,4,5,6];
+                        or
+    console.log(arr.concat(arr2));  // [1,2,3,4,5,6];
+
+_________________________________________
+
+8) sort 
+
+it will sort arr elements both words and numbers
+
+ex) let arr = [3,2,1];
+    arr.sort();
+    console.log(arr);  //[1,2,3]
+
+_________________________________________
+9) slice
+
+it will cut down the arr 
+
+syntax - arr.slice(a,b);
+                a - start point it will printed
+                b - end point it will not print because its cutdown
+
+ex) let arr = [1,2,3,4,5];
+               0 1 2 3 4   //indexs
+
+    arr.slice(2,4);
+    console.log(arr);  //[3,4]
+
+_________________________________________
+
