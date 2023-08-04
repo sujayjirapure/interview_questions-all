@@ -1,3 +1,17 @@
+index
+
+functions
+rest and spread oprator
+array methods
+map,reduce,filter
+object
+object methods
+create object in 3 ways
+
+
+    
+
+
 
 
 1) default value
@@ -143,4 +157,65 @@ ex) let arr = [1,2,3,4,5];
     console.log(arr);  //[3,4]
 
 _________________________________________
+Map , reduce , filer 
+ 
+//map
+
+let arr = [1,2,3,4,5];
+
+//new method
+let new_arr = arr.map((item) => {
+    return item*10
+});
+
+//new method
+let new_arr2 = arr.map((item) => item*10);
+
+//print index also 
+let new_arr3 = arr.map((item ,index) => {
+    console.log(item ,index);
+    return item*10
+});
+
+console.log(new_arr);
+console.log(new_arr3);
+
+
+
+//reduce
+reduce complete array to single variable
+
+Q) print total of array
+let sum = arr.reduce((a,b) => a+b,0);
+console.log("sum of arr is:",sum);
+
+
+
+// filter
+
+we want to filter some thing
+
+// print only odd no. ?
+ex) let arr2 =  arr.filter((temp) => temp % 2 == 0);
+console.log(arr2);       // 2 4 6
+
+
+_________________________________________
+
+object
+
+
+Q) create object in 3 ways
+
+syntax - 
+1)
+var obj = {
+    name: 'sujay',
+    age: 22
+}
+
+2) let obj = new object;
+
+3) let obj = object.create(obj);
+
 

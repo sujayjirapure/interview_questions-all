@@ -1,0 +1,17 @@
+
+diff between 
+
+sujay > div - only 1st div inside sujay parent div
+
+and
+
+sujay div   - all div in side sujay parent div
+
+
+
+Q) delete list bullets style
+
+list-style-type: none;
+
+
+
