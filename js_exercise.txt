@@ -1,16 +1,12 @@
 index
-
+hosting *
 functions
 rest and spread oprator
 array methods
-map,reduce,filter
+map,reduce,filter *
 object
 object methods
 create object in 3 ways
-
-
-    
-
 
 
 
@@ -165,8 +161,8 @@ let arr = [1,2,3,4,5];
 
 //new method
 let new_arr = arr.map((item) => {
-    return item*10
-});
+                return item*10
+            });
 
 //new method
 let new_arr2 = arr.map((item) => item*10);
@@ -198,6 +194,14 @@ we want to filter some thing
 // print only odd no. ?
 ex) let arr2 =  arr.filter((temp) => temp % 2 == 0);
 console.log(arr2);       // 2 4 6
+
+Q) if input is app then it print apple 
+
+var arr = ["apple", "banana" ,"grapes"];
+let input = "ban";
+
+var filteredArray = arr.filter(item => item.includes(input));
+console.log(filteredArray);
 
 
 _________________________________________
