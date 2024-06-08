@@ -1,0 +1,37 @@
+A high-level, interpreted programming language called JavaScript makes it possible 
+to create interactive web pages and online apps with dynamic functionality. Commonly 
+referred to as the universal language, Javascript is primarily used by developers for 
+front-end and back-end work.
+
+
+
+Q) what is deep copy vs shalow copy
+
+Shallow copying :- creates a new object with references to the same memory locations as the original object
+
+deep copying :- creates a new object with new memory locations for all of its properties and 
+nested objects or arrays.
+
+
+
+Q) null vs undefined 
+
+null - null is an assign value that represnt empty value or no value 
+
+undefined - is a varibale that has been declared but not assign a value
+
+
+Q) how to clone a object in JavaScript
+
+there are multiple ways to clone an object in JavaScript
+most popular is object.assign() and spread oprators
+
+ex)
+let obj = {
+    name: "sujay",
+    age : 30
+}
+
+way 1 :- const obj2 = {...obj };     spred opreaters
+
+way2 :- const obj3 = object.assign({}, obj);

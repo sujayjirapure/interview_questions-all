@@ -1,0 +1,12 @@
+
+1.  How React is different from other frameworks? ( Virtual DOM, View Oriented, Unidirectional, Component-Based).
+2.  Virtual DOM purpose.
+3.  Data flow in react. (props/state).
+4.  Server-side rendering (Heavy data and SEO friendly) / Client side rendering (App).
+5.  Refs in react.
+6.  React Fiber.
+7.  Synthetic events in react.
+
+
+sourse :- 
+https://youtu.be/0cvp_yY-818?si=omhxmEIcjX2uU-_C

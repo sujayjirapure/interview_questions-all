@@ -26,6 +26,7 @@ JavaScript:
 22.closure with multiply function
 23.IIFE 
 
+
 Angular:
 1.how angular start?
 2.directive
@@ -63,3 +64,10 @@ Programs
 4.palindrome
 5.max value
 6.star patter (z pattern)
+
+
+
+exp
+
+find product of arr (reduce)
+diff map and for each?

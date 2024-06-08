@@ -7,11 +7,19 @@ and
 
 sujay div   - all div in side sujay parent div
 
-
+nth child selector
 
 Q) delete list bullets style
 
 list-style-type: none;
 
 
+
+Q) diff between positions
+
+Static - this is the default value, all elements are in order as they appear in the document.
+Relative - the element is positioned relative to its normal position.
+Absolute - the element is positioned absolutely to its first positioned parent.
+Fixed - the element is positioned related to the browser window.
+Sticky - the element is positioned based on the user’s scroll position.
 

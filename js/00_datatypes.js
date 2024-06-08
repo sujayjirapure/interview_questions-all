@@ -2,15 +2,16 @@
 
 // 1) primitive       2) non-prmitive
 //  Number                objects
+//  null                  
 //  String                arrays
-//  Boolean
-//  null
-//  undefined
-//  BigInt
 //  Symbol
+//  Boolean
+//  BigInt
+//  undefined
 
 
 var a = "sujay";
 var b = 3;
 
 console.log(typeof(b));
+
