@@ -1,7 +1,7 @@
 //diff betwn them ?
 //let and const were introduced in ES6 and have block scope
 
-//var :- var declares the global variable that means it only accessable accessed from anywhere in the code
+//var :- var declares the global variable that means it only accessable anywhere in the code
 //we can declare two variable with same name 
    var a = 10;
    var a = 20;   //ok it will chnage

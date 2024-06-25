@@ -32,6 +32,15 @@ let obj = {
     age : 30
 }
 
-way 1 :- const obj2 = {...obj };     spred opreaters
+way1 :- const obj2 = {...obj };     spred opreaters
 
 way2 :- const obj3 = object.assign({}, obj);
+
+
+Q) what are promises in js 
+
+promises managing multiple asynchronous operations
+A JavaScript Promise object can be :-
+pending
+resolved 
+rejected

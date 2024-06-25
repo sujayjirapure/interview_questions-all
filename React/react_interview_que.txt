@@ -1,12 +1,67 @@
 
-1.  How React is different from other frameworks? ( Virtual DOM, View Oriented, Unidirectional, Component-Based).
-2.  Virtual DOM purpose.
-3.  Data flow in react. (props/state).
-4.  Server-side rendering (Heavy data and SEO friendly) / Client side rendering (App).
-5.  Refs in react.
-6.  React Fiber.
 7.  Synthetic events in react.
-
 
 sourse :- 
 https://youtu.be/0cvp_yY-818?si=omhxmEIcjX2uU-_C
+
+
+Q) what is bebel
+
+babel is a js compailer.
+bebel is used to convert ECMAScript code into a backwards 
+compatible version of JavaScript in current and older browsers
+
+Q) what is virtual DOM ?
+
+virtual dom is a lightweight copy of actual dom its compare the previous state and current state and only change the updated part 
+use a diff algo
+in real dom when ever we change somenthing whole dom is change. 
+
+
+
+Q) what is refs ?
+
+Refs provide a way to access DOM nodes or React elements
+They should be avoided in most cases
+however, they can be useful when we need direct access to the DOM element or an instance of a component.
+
+
+
+
+Q) what is hooks ?
+
+Hooks are a new addition to React 16.8 V.
+we can use features of class based compo in to function based compo 
+hooks are the function that hooks in to the react state and life cycle methods
+its allows you to use state and other react features without wrting class
+
+ex - usestate, useeffect
+
+
+
+Q) what is state ?
+
+state is an in-bulid react object that is used to contain data of that componment and it is mutable
+Every time the state of an object changes, React re-renders the component.
+
+
+
+Q) what is jsx ?
+
+JSX stands for JavaScript XML.
+JSX allows us to write HTML elements in JavaScript
+JSX converts HTML tags into react elements.
+
+
+Q) what are the main phases of life cycle methods
+
+there are three main phases:- 
+Mounting
+Updating
+Unmounting. 
+
+
+Q) what is HOC
+
+a higher-order component is a function that takes a component and returns a new component.
+to increase the re useabilty logic in react
